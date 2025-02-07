@@ -27,16 +27,13 @@ Automation bot for interacting with the Silent Protocol testnet.
 
    - Copy the displayed token.
 
-3. **Save Your Tokens**
-   - Create a file named `tokens.txt` in the project root directory.
-   - Add each token on a new line.
 
 ## Installation
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/dante4rt/silent-protocol-bot.git
+   git clone https://github.com/SKaaalper/silent-protocol-bot.git
    cd silent-protocol-bot
    ```
 
@@ -46,13 +43,29 @@ Automation bot for interacting with the Silent Protocol testnet.
    npm install
    ```
 
+3. Create a file named `tokens.txt` in the project root directory.
+   ```
+   nano tokens.txt
+   ```
+   - Add each token on a new line.
+  
+
+## Create Screen Session
+
+1. Create screen:
+   ```
+   screen -S silent
+   ```
+   
+
 ## Running the Bot
 
-Start the bot with the following command:
+1. Start the bot with the following command:
 
 ```bash
 npm start
 ```
+- `Ctrl + A`, Then click `D` to detach screen
 
 ## Notes
 
